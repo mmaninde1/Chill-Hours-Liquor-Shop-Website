@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Slider | Chill Hours | Cheers not tears</title>
+    <!-- fontawesome and airslider css linking -->
+    <link href="assets/fontawesome-free-5.11.2-web/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/air-slider-master/air-slider/air-slider.min.css">
+    
+    <!-- add jquery and modernizer js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+   <script>
+       /* script for page loader */
+       $(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+    </script>
+    <!-- custom css style.css -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    
+    
+</head>
+
+<body>
+ 
+ <!-- loader icon -->
+ <!-- div class="se-pre-con"></div -->
+ 
+  <div class="container">
+   <div class="logo-container">
+       <div class="logo-img">
+           <img src="assets/images/logo.png" alt="logo" />
+       </div>
+   </div>
+    <div class="topnav" id="myTopnav">
+       <div class="inner-nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="media.html">Media</a>
+        <a href="slider.html" class="active">Slider</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+    </div>
+    </div>
+    
+    <!-- slider starts here -->
+    <div class="main-slider">
+    <div class="air-slider">
+        <div class="slide">
+            <img src="assets/images/slider/1.jpg" alt="slide1" />
+        </div>
+        <div class="slide">
+            <img src="assets/images/slider/2.jpg" alt="slide2" />
+        </div>
+        <div class="slide">
+            <img src="assets/images/slider/3.jpg" alt="slide3" />
+        </div>
+    </div>
+    </div>
+    <!-- slider ends here -->
+   
+   <!-- footer section starts here -->
+   <footer class="footer">
+       <div class="footer-inner">
+           <div class="foot-elem">
+               <span>© 2019 | All rights reserved.</span>
+               <ul class="social-icons">
+                   <li><i class="fab fa-facebook-square fa-2x"></i></li>
+                   <li><i class="fab fa-twitter-square fa-2x"></i></li>
+                   <li><i class="fab fa-instagram fa-2x"></i></li>
+                   <li><i class="fab fa-linkedin fa-2x"></i></li>
+               </ul>
+               <span>Developed By <a href="https://www.facebook.com/mohit.lubana.5">Mohit Kumar</a> & <a href="https://www.facebook.com/profile.php?id=100009279489612">Maninder Singh</a></span>
+           </div>
+       </div>
+    </footer>
+   
+   <!-- add js files --> 
+    <script src="assets/air-slider-master/air-slider/air-slider.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
